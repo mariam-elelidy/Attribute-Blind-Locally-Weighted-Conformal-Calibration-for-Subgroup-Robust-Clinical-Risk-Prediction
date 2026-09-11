@@ -149,29 +149,3 @@ and is worth stating plainly rather than obscuring.
 - Formal finite-sample coverage guarantees for LWCC-A (currently a
   heuristic, as is standard in the localized-conformal-prediction
   literature it builds on).
-
-## 5. Next steps toward a submittable (Q1-level) paper
-
-1. **Formal analysis.** Derive a finite-sample coverage bound for
-   LWCC-A under a local exchangeability assumption (cf. Guan, 2020;
-   Han et al., 2022), or explicitly frame it as a heuristic and instead
-   prove an *asymptotic* group-conditional coverage guarantee under a
-   local-density regularity condition connecting feature-space
-   proximity to subgroup membership.
-2. **More datasets.** Repeat the full pipeline on at least one imaging
-   or clinical-notes dataset with real demographic subgroup labels
-   (e.g., a public chest X-ray dataset with reported patient sex/age)
-   to test whether the finding generalizes beyond tabular EHR data.
-3. **Ablation on `k` (neighborhood size) and bandwidth choice** — the
-   current `k=500`, adaptive-median-bandwidth choice is a single
-   configuration; a proper ablation is needed before any claim about
-   why LWCC-A works.
-4. **A cleaner shift experiment** with a larger, more clearly
-   monotonic shift axis (e.g., a genuine multi-site/multi-hospital
-   split) to more rigorously test the shift-robustness question left
-   open in §2.
-5. **A pre-registered comparison against additional real baselines**:
-   importance-weighted conformal prediction under covariate shift
-   (Tibshirani et al., 2019), and a proper k-NN/kernel localized
-   conformal baseline from the existing literature, to isolate what
-   part of LWCC-A's behavior is genuinely novel versus already known.
