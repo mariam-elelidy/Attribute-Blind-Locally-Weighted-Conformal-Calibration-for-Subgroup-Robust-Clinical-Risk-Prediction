@@ -1,0 +1,21 @@
+{
+  "target_coverage": 0.9,
+  "global": {
+    "marginal_coverage": 0.9017321214199966,
+    "worst_group_coverage_race": 0.889763779527559,
+    "max_abs_deviation_race": 0.010236220472440993,
+    "mean_abs_deviation_race": 0.00628744848704856
+  },
+  "mondrian_race": {
+    "marginal_coverage": 0.9017892871434288,
+    "worst_group_coverage_race": 0.8568548387096774,
+    "max_abs_deviation_race": 0.04314516129032264,
+    "mean_abs_deviation_race": 0.011293485177726234
+  },
+  "lwcc_a_attribute_blind": {
+    "marginal_coverage": 0.9100783170411022,
+    "worst_group_coverage_race": 0.905511811023622,
+    "max_abs_deviation_race": 0.01038385074170356,
+    "mean_abs_deviation_race": 0.008762100181179696
+  }
+}

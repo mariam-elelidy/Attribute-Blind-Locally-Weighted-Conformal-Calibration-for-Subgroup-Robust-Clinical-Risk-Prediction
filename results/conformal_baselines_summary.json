@@ -1,0 +1,23 @@
+{
+  "global": {
+    "qhat": 0.27066931459298027,
+    "marginal_coverage": 0.9017321214199966,
+    "mean_set_size": 0.9864517235465615,
+    "effective_coverage": 0.9017321214199966,
+    "actionable_rate": 0.9864517235465615
+  },
+  "mondrian_race": {
+    "qhat_by_group": {
+      "AfricanAmerican": 0.24264687410441066,
+      "Asian": 0.22795034006825887,
+      "Caucasian": 0.2992572967406898,
+      "Hispanic": 0.23105516234524126,
+      "Other": 0.16797792949937929,
+      "Unknown": 0.14547506039786073
+    },
+    "marginal_coverage": 0.9017892871434288,
+    "mean_set_size": 0.9869090493340194,
+    "effective_coverage": 0.9017892871434288,
+    "actionable_rate": 0.9869090493340194
+  }
+}
